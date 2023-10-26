@@ -1,5 +1,4 @@
 #Dataframe to Numpy
-#import numpy as np
 import pandas as pd 
 
 a = pd.DataFrame({'a1': [1, 2, 3], 'a2': [4, 5, 6]}, index = ['X', 'Y', 'Z'])
