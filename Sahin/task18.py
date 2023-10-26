@@ -1,8 +1,6 @@
 #Argsort on Numpy array
 import numpy as np
 
-
-#sample NumPy array
 arr = np.array([0,1,2,3,4,5])
 
 # Ascending
