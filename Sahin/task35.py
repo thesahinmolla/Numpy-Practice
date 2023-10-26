@@ -1,12 +1,8 @@
-#List to numpy array with explicit dtype
+#List to numpy array
 import numpy as np
 
-a = [0, 1, 2, 3, 4, 5]
-print('Before : ')
-print(a)
-print(type(a))
+a = [1,2,3,4,5]
+print(f"{a} is a {type(a)}")
 
-print('\nAfter : ')
 b = np.array(a)
-print(b)
-print(b.dtype)
+print(f"{b} is a {type(b)}")
