@@ -1,6 +1,6 @@
 import numpy as np
 # Creating an empty array
-array = np.empty((3, 3))  
+array = np.empty(())  
 # Check if the array is empty
 is_empty = np.all(array == 0)
 
